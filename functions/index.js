@@ -5,7 +5,7 @@ module.exports = {
             axios.get(url)
             .then(function (response) {
                 // handle success
-                resolve( JSON.stringify(response.data))
+                resolve( response.data)
             })
             .catch(function (error) {
                 // handle error

@@ -1,6 +1,6 @@
 require('dotenv').config()
-const express = require("express")
-const app = express()
+const conflicto = require("express")
+const app = conflicto()
  
 app.get('/', function (req, res) {
   res.send('bienvenido')
